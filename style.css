@@ -1,0 +1,802 @@
+/* color #e67e22
+  darker
+  lighter 
+         */
+
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;600;700;800;900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "rubik", sans-serif;
+  scroll-behavior: smooth;
+}
+
+strong {
+  font-weight: 500;
+}
+html {
+  font-size: 10px;
+}
+/* -----------------------------------NAVIGATION---------------------- */
+
+.header {
+  background-color: #fdf2e9;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 9.8rem;
+  padding: 0 5.3rem;
+}
+
+.header img {
+  height: 3rem;
+}
+
+.header ul {
+  font-size: 2.2rem;
+  gap: 1rem;
+  list-style-type: none;
+  font-weight: 500;
+  display: flex;
+}
+
+li a:link,
+li a:visited {
+  text-decoration: none;
+  color: #333;
+  padding: 1.3rem 2.3rem;
+  transition: color 0.1s ease;
+}
+
+li a:hover,
+li a:active {
+  color: #e67e22;
+}
+
+.lastchild:link,
+.lastchild:visited {
+  color: white;
+  background-color: #e67e22;
+  color: #fff;
+  border-radius: 10px;
+  transition: background-color 0.3s ease;
+}
+.lastchild:hover,
+.lastchild:active {
+  background-color: #cf711f;
+}
+
+/*--------------------------------- ta7t nav----------------- */
+
+.section-hero {
+  background-color: #fdf2e9;
+  padding: 7rem 0;
+  height: 100vh;
+}
+
+.hero {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  max-width: 160rem;
+  margin: 0 auto;
+  align-items: center;
+  row-gap: 6rem;
+  column-gap: 12rem;
+  padding: 0 3.2rem;
+}
+
+.hero-h1 {
+  font-size: 6.7rem;
+  font-weight: bold;
+  line-height: 1.1;
+  letter-spacing: -0.8px;
+  margin-bottom: 4rem;
+  color: #333;
+}
+
+.hero-p {
+  font-size: 2.5rem;
+  line-height: 1.5;
+  margin-bottom: 4rem;
+  color: #555;
+}
+
+.hero-img {
+  width: 100%;
+}
+
+.btn {
+  display: inline-block;
+
+  font-size: 2.5rem;
+  padding: 2rem 4rem;
+  text-decoration: none;
+
+  border-radius: 10px;
+}
+
+.btns {
+  margin-bottom: 2rem;
+}
+
+.btn-1:link,
+.btn-1:visited {
+  background-color: #e67e22;
+  color: #fff;
+  transition: background-color 0.5s ease;
+}
+.btn-1:hover,
+.btn-1:active {
+  background-color: #cf711f;
+}
+
+.btn-2:link,
+.btn-2:visited {
+  background-color: #fff;
+  color: #333;
+  transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+.btn-2:hover,
+.btn-2:active {
+  background-color: #fdf2e9;
+  box-shadow: inset 0 0 0 5px #fff;
+}
+
+.margin-right {
+  margin-right: 2rem;
+}
+
+.grid3 {
+  display: flex;
+  align-items: center;
+  margin-top: 10rem;
+}
+
+.grid3 img {
+  width: 5rem;
+  height: 5rem;
+  border-radius: 50%;
+  margin-left: -10px;
+  box-shadow: 0 0 0 5px #fdf2e9;
+}
+
+.grid3 p {
+  font-size: 2.2rem;
+  color: #333;
+  font-weight: 600;
+  margin-left: 1.5rem;
+}
+
+.center {
+  max-width: 140rem;
+  margin: 0 auto;
+}
+
+/* .center--s {
+  max-width: 130rem;
+  margin: 0 auto;
+} */
+
+p span {
+  color: #cf711f;
+}
+
+/* -=--------------------------AS FEATURED IN */
+
+.featured {
+  margin-top: 4.8rem;
+}
+
+.featured h2 {
+  display: flex;
+
+  margin-bottom: 4rem;
+  font-size: 1.9rem;
+  letter-spacing: 1px;
+  font-weight: 600;
+  color: #888;
+  justify-content: center;
+}
+
+.logos {
+  display: flex;
+  justify-content: space-around;
+  filter: brightness(0);
+  opacity: 50%;
+}
+.logos img {
+  height: 3.5rem;
+  margin-bottom: 3rem;
+}
+
+/* -------------------------------------howw it worsks--------------------------s */
+
+.howitworksec {
+  margin-top: 10rem;
+}
+
+.howitworksec h2 {
+  font-size: 2.4rem;
+  color: #a15818;
+  font-weight: 600;
+  margin-bottom: 2rem;
+  letter-spacing: 1.4px;
+  text-transform: uppercase;
+}
+
+.howitworksec p {
+  font-size: 5rem;
+  font-weight: 700;
+  color: #333;
+}
+
+.gridhow {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10rem;
+
+  margin-top: 15rem;
+}
+
+.howittex h2 {
+  color: #ddd;
+  font-size: 10rem;
+}
+
+.howittex h3 {
+  margin-top: 1.1rem;
+  color: #333;
+  font-size: 3.6rem;
+}
+
+.howittex p {
+  color: #555;
+  font-size: 2.2rem;
+  margin-top: 4.5rem;
+  line-height: 1.8;
+}
+
+.howitphone {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  z-index: 1;
+}
+
+.howitphone::before {
+  content: "";
+  width: 65%;
+  padding-bottom: 65%;
+  background-color: #fdf2e9;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  border-radius: 50%;
+  transform: translate(-50%, -50%);
+  z-index: -2;
+}
+
+.howitphone::after {
+  content: "";
+  width: 50%;
+  padding-bottom: 50%;
+  background-color: #fae5d3;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  border-radius: 50%;
+  transform: translate(-50%, -50%);
+  z-index: -1;
+}
+
+.howitphone img {
+  width: 35%;
+}
+
+.howittex-center {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+/* ===============meals------------------------------------- */
+.meals-card {
+  margin-top: 9rem;
+  display: grid;
+  grid-template-columns: repeat(3, 380px);
+  gap: 9.6rem;
+  margin-bottom: 15rem;
+}
+
+.card1 {
+  box-shadow: 0 2.4rem 4.8rem rgb(0 0 0 / 8%);
+  overflow: hidden;
+  border-radius: 3%;
+  transition: all 0.5s ease;
+
+  /* background-color: red; */
+}
+
+.card1:hover {
+  cursor: pointer;
+  transform: translateY(-2rem);
+}
+
+.card1 img {
+  width: 100%;
+}
+
+.card1-details {
+  padding: 3rem 3rem 3rem 3rem;
+  margin-left: 1.3rem;
+}
+
+.card1-details h3 {
+  display: inline-block;
+  font-size: 1.4rem;
+  background-color: #51cf66;
+  padding: 3px 8px 3px 8px;
+  border-radius: 100px;
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+
+.card1-details h2 {
+  font-size: 2.5rem;
+  margin-bottom: 2.8rem;
+}
+
+.card1-list {
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  font-size: 2rem;
+  color: #333;
+  margin-bottom: 1rem;
+}
+
+.list-logos {
+  font-size: 2.7rem;
+  color: #a15818;
+}
+
+li {
+  display: flex;
+  align-items: center;
+  gap: 1.6rem;
+}
+
+.howitworksec-c {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+}
+/* 
+.line {
+  width: 150px;
+  height: 3px;
+  background-color: #e67e22;
+  position: absolute;
+  border-radius: 3%;
+  top: 105%;
+  left: 60.5%;
+} */
+
+/*------------------- card3-------------------------- */
+.card3 h2 {
+  font-size: 3.3rem;
+  margin-bottom: 4.3rem;
+  color: #333;
+}
+
+.list-items {
+  list-style: none;
+  font-size: 2.1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  color: #555;
+}
+
+.li-logos {
+  font-size: 2.8rem;
+  color: #e67e22;
+  margin-right: 5px;
+}
+
+/* ------------------------card link----------------
+.card-links {
+  font-size: 2.2rem;
+  text-align: center;
+  margin-bottom: 20rem;
+  display: s;
+  position: relative;
+}
+.card-link:link,
+.card-link:visited {
+  text-decoration: none;
+  text-align: center;
+  color: #e67e22;
+  border-bottom: 1px solid currentColor;
+  transition: all 0.3s ease;
+  position: absolute;
+}
+
+.card-link:hover,
+.card-link:active {
+  border-bottom: 1px solid transparent;
+} */
+
+/* ---------------------testimonials */
+
+.firstt {
+  padding: 9rem;
+}
+
+.hadras {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10rem;
+  margin-top: 10rem;
+}
+
+.hadras p {
+  font-size: 2.3rem;
+  line-height: 1.8;
+  color: #555;
+}
+
+.hadras h4 {
+  font-size: 1.8rem;
+  margin-top: 1.6rem;
+  color: #6f6f6f;
+  font-weight: 300;
+}
+
+.firstt .howitworksec p {
+  font-size: 5.5rem;
+}
+
+.hadra img {
+  width: 7.7rem;
+  border-radius: 50%;
+  margin-bottom: 1.7rem;
+}
+
+.testiona-sce {
+  display: grid;
+  grid-template-columns: 55fr 45fr;
+  background-color: #fdf2e9;
+  padding: 1.9rem;
+}
+
+.sect {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 1.9rem;
+  padding: 1.9rem;
+}
+
+.sect figure {
+  overflow: hidden;
+}
+
+.sect figure img {
+  display: block;
+  width: 100%;
+  transition: all 0.5s ease;
+}
+
+.sect img:hover {
+  transform: scale(1.1);
+}
+
+/* -------------------cprice card-------------------- */
+
+.prices-card {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10rem;
+}
+
+.pcard1 {
+  margin-top: 10rem;
+  padding: 4.6rem;
+
+  width: 75%;
+}
+
+.card1end {
+  justify-self: end;
+  border: 2px solid #fdf2e9;
+  border-radius: 5%;
+}
+
+.pcard1 h2 {
+  font-size: 2.5rem;
+  color: #cf711f;
+  font-weight: 600;
+  margin-bottom: 2.5rem;
+}
+
+.pcard1 h3 {
+  font-size: 7rem;
+  color: #222;
+  margin-bottom: 1.3rem;
+}
+
+.pcard1 strong {
+  font-size: 4rem;
+  margin-right: 5px;
+}
+
+.pcard1 p {
+  font-size: 1.7rem;
+  color: #6f6f6f;
+  margin-bottom: 4.5rem;
+}
+
+.pcard1 h3,
+.pcard1 p,
+.pcard1 h2 {
+  text-align: center;
+}
+
+.pcard1 ul {
+  display: flex;
+  font-size: 2.2rem;
+  color: #6f6f6f;
+  gap: 2.5rem;
+}
+
+.plogos {
+  font-size: 3.4rem;
+  font-weight: bold;
+  color: #e67e22;
+}
+
+.listc {
+  display: flex;
+}
+
+.btn a {
+  display: block;
+  text-align: center;
+  margin-top: 2rem;
+  margin-left: 2.1rem;
+  padding: 1.5rem 3rem;
+  font-weight: 600;
+}
+
+.psecond {
+  background-color: #fdf2e9;
+  position: relative;
+  border-radius: 5px;
+}
+
+li span .strong {
+  font-size: 2.3rem;
+  font-weight: 700;
+}
+
+.howitworksec .pruces {
+  font-size: 2rem;
+}
+
+.howitworksec .eat {
+  font-size: 5.5rem;
+}
+
+.pprices {
+  font-size: 1.9rem;
+  text-align: center;
+  color: #555;
+  line-height: 1.6;
+  letter-spacing: 0.3px;
+  margin-top: 6rem;
+  margin-bottom: 10rem;
+}
+
+/* -----------------   4grids------------------------------------ */
+
+.cbottom {
+  margin-bottom: 25rem;
+}
+
+.grid4 {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 2rem;
+  margin-bottom: 10rem;
+  margin-bottom: 10rem;
+}
+
+.grid4 h3 {
+  font-size: 2.7rem;
+  margin-bottom: 1.5rem;
+  color: #222;
+}
+
+.grid4 p {
+  color: #555;
+  font-size: 2.2rem;
+  line-height: 1.8;
+}
+
+.logos2 {
+  font-size: 3.7rem;
+  color: #e67e22;
+  padding: 1.7rem;
+  background-color: #fae5d3;
+  border-radius: 50%;
+  margin-bottom: 3.5rem;
+}
+
+.grid11,
+.grid12,
+.grid13,
+.gridd14 {
+  width: 90%;
+}
+
+/* ---------------------slect- */
+
+.clt {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  margin-bottom: 5rem;
+  border-radius: 8px;
+  overflow: hidden;
+  background-image: linear-gradient(to right bottom, #eb984e, #e67e22);
+}
+
+.clt-i {
+  background-size: cover;
+
+  background-image: linear-gradient(
+      to right bottom,
+      rgba(235, 151, 78, 0.35),
+      rgba(230, 125, 34, 0.35)
+    ),
+    url(/content/img/eating.jpg);
+}
+
+.clt-f {
+  padding: 4.8rem 6.4rem 6.4rem 6.4rem;
+  color: #45260a;
+}
+
+.clt-f h2 {
+  font-size: 5.5rem;
+  margin-bottom: 3rem;
+  color: #45260a;
+}
+
+.clt-f p {
+  font-size: 2.3rem;
+  line-height: 1.8;
+  margin-bottom: 4rem;
+}
+
+form {
+  row-gap: 5rem;
+  column-gap: 4rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+form label {
+  display: block;
+  font-size: 2rem;
+  font-family: "rubik";
+  margin-bottom: 1.5rem;
+  color: inherit;
+  font-family: 600;
+}
+
+form input,
+form select {
+  padding: 2rem;
+
+  font-size: 2rem;
+  font-family: "rubik", sans-serif;
+  width: 100%;
+  background-color: #fdf2e9;
+  border: none;
+  border-radius: 10px;
+  outline: none;
+}
+
+.btn-f {
+  border: none;
+  align-self: end;
+
+  background-color: #45260a;
+  color: #fdf2e9;
+  cursor: pointer;
+  transition: background-color ease 0.5s, color ease 0.5s;
+}
+
+.btn-f:hover {
+  background-color: #fff;
+  color: #555;
+}
+
+form label {
+  font-family: "rubik";
+  font-weight: 500;
+}
+
+form input::placeholder {
+  color: #aaa;
+  font-family: "rubik", sans-serif;
+}
+
+/* ----------------------foooter =-------*/
+
+.gridfooter {
+  display: grid;
+  margin-bottom: 10rem;
+  margin-top: 30rem;
+  gap: 7rem;
+  grid-template-columns: repeat(5, 1fr);
+}
+
+.footer1 img {
+  height: 3rem;
+  margin-bottom: 3.5rem;
+}
+
+.footerlo {
+  display: flex;
+  gap: 3rem;
+  font-size: 2.5rem;
+  margin-bottom: 5rem;
+  color: #6f6f6f;
+}
+.footer1 p {
+  font-size: 1.7rem;
+  color: #6f6f6f;
+}
+
+.footer3 h3,
+.footer2 h3,
+.footer4 h3,
+.footer5 h3 {
+  font-size: 2.3rem;
+  margin-bottom: 3.5rem;
+  color: #444;
+}
+
+.footer2 p {
+  font-size: 1.7rem;
+  color: #6f6f6f;
+  margin-bottom: 5rem;
+}
+
+.footer2 a {
+  text-decoration: none;
+  color: #6f6f6f;
+  font-size: 1.8rem;
+}
+
+.footer3 li,
+.footer4 li,
+.footer5 li {
+  display: flex;
+  margin-bottom: 2rem;
+  font-size: 1.9rem;
+  color: #6f6f6f;
+
+  justify-content: flex-start;
+}
+
+.footer3 a,
+.footer4 a,
+.footer5 a {
+  display: none;
+}
