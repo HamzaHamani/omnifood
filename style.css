@@ -79,16 +79,17 @@ li a:active {
 .hero {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  max-width: 160rem;
+  max-width: 155rem;
   margin: 0 auto;
   align-items: center;
-  row-gap: 6rem;
+  row-gap: 9rem;
   column-gap: 12rem;
   padding: 0 3.2rem;
+  margin-top: 1.5rem;
 }
 
 .hero-h1 {
-  font-size: 6.7rem;
+  font-size: 6.3rem;
   font-weight: bold;
   line-height: 1.1;
   letter-spacing: -0.8px;
@@ -97,14 +98,14 @@ li a:active {
 }
 
 .hero-p {
-  font-size: 2.5rem;
+  font-size: 2.3rem;
   line-height: 1.5;
   margin-bottom: 4rem;
   color: #555;
 }
 
 .hero-img {
-  width: 100%;
+  width: 105%;
 }
 
 .btn {
@@ -119,6 +120,7 @@ li a:active {
 
 .btns {
   margin-bottom: 2rem;
+  margin-top: 0.4rem;
 }
 
 .btn-1:link,

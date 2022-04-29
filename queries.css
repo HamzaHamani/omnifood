@@ -1,0 +1,265 @@
+/* 75% */
+
+@media (max-width: 120em) {
+  .header {
+    padding: 0 4rem;
+    margin-top: -0.5rem;
+  }
+  .header img {
+    height: 2.6rem;
+  }
+
+  .header-nav ul {
+    font-size: 2rem;
+  }
+  .center {
+    max-width: 125rem;
+  }
+  .section-hero {
+    padding: 6rem 0;
+  }
+  .hero {
+    max-width: 140rem;
+  }
+  .hero-h1 {
+    font-size: 5.7em;
+  }
+  .hero-p {
+    font-size: 2rem;
+  }
+  .btn {
+    padding: 1.4rem 2.4rem;
+    font-size: 2.3rem;
+  }
+  .grid3 img {
+    width: 4rem;
+    height: 4rem;
+  }
+  .grid3 p {
+    font-size: 1.9rem;
+  }
+  .featured h2 {
+    font-size: 1.9rem;
+  }
+  .howitworksec h2 {
+    font-size: 2.2rem;
+  }
+  .howitworksec p {
+    font-size: 4rem;
+  }
+  .howittex h2 {
+    font-size: 9rem;
+  }
+  .howittex h3 {
+    font-size: 3.3rem;
+  }
+  .howittex p {
+    font-size: 2rem;
+    line-height: 1.8;
+  }
+}
+/* end of 75% */
+
+/* 80% */
+
+@media (max-width: 110em) {
+  .header {
+    margin-top: -0.3rem;
+  }
+  .header-nav ul {
+    font-size: 1.8rem;
+  }
+  .section-hero {
+    padding: 4rem 0;
+  }
+
+  .hero {
+    max-width: 130rem;
+  }
+  .hero-h1 {
+    font-size: 5.2rem;
+  }
+  .hero-p {
+    font-size: 1.9rem;
+  }
+  .sect {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .btn {
+    padding: 1.5rem 2.5rem;
+    font-size: 2.2rem;
+  }
+  .grid3 {
+    margin-top: 6rem;
+  }
+  .grid3 img {
+    width: 4rem;
+    height: 4rem;
+  }
+  .grid3 p {
+    font-size: 1.8rem;
+  }
+  .logos img {
+    height: 3.4rem;
+  }
+  .center {
+    max-width: 120rem;
+  }
+  .howitworksec h2 {
+    font-size: 2.1rem;
+  }
+  .howitworksec p {
+    font-size: 4rem;
+  }
+  .howittex h2 {
+    font-size: 9rem;
+  }
+  .howittex h3 {
+    font-size: 3.1rem;
+    margin-bottom: 0;
+  }
+  .howittex p {
+    margin-top: 3.5rem;
+    font-size: 2rem;
+    line-height: 1.8;
+  }
+}
+
+/* end of 80% */
+
+/* 90% */
+
+@media (max-width: 95em) {
+  .header {
+    padding: 0 3rem;
+
+    margin-top: -1rem;
+  }
+  .header img {
+    height: 2.6rem;
+  }
+
+  .header-nav ul {
+    gap: -2rem;
+    font-size: 1.6rem;
+  }
+  .section-hero {
+    padding: 2rem 0;
+  }
+  .hero {
+    max-width: 117rem;
+  }
+  .hero-h1 {
+    font-size: 4.6rem;
+  }
+  .hero-p {
+    font-size: 1.7rem;
+  }
+  .btn {
+    padding: 1.3rem 2.3rem;
+    font-size: 1.9rem;
+  }
+  .grid3 {
+    margin-top: 6rem;
+  }
+  .grid3 img {
+    width: 3.5rem;
+    height: 3.5rem;
+  }
+  .grid3 p {
+    font-size: 1.6rem;
+  }
+  .logos img {
+    height: 3rem;
+  }
+  .center {
+    max-width: 107rem;
+  }
+  .howitworksec h2 {
+    font-size: 1.6rem;
+  }
+  .howitworksec p {
+    font-size: 3.6rem;
+  }
+  .howittex h2 {
+    font-size: 8rem;
+  }
+  .howittex h3 {
+    font-size: 2.8rem;
+    margin-bottom: 0;
+  }
+  .howittex p {
+    margin-top: 3.5rem;
+    font-size: 1.8rem;
+    line-height: 1.8;
+  }
+}
+
+/* end of 90 */
+
+/* 100% */
+@media (max-width: 86em) {
+  .header {
+    padding: 0 2rem;
+  }
+  .header img {
+    height: 2rem;
+  }
+
+  .header-nav ul {
+    gap: 0rem;
+    font-size: 1.4rem;
+  }
+
+  .section-hero {
+    padding: 2rem 0;
+  }
+
+  .hero {
+    max-width: 106rem;
+  }
+  .hero-h1 {
+    font-size: 4.1rem;
+  }
+  .hero-p {
+    font-size: 1.5rem;
+  }
+  .btn {
+    padding: 1.3rem 2.3rem;
+    font-size: 1.9rem;
+  }
+  .grid3 {
+    margin-top: 6rem;
+  }
+  .grid3 img {
+    width: 3rem;
+    height: 3rem;
+  }
+  .grid3 p {
+    font-size: 1.4rem;
+  }
+  .logos img {
+    height: 3rem;
+  }
+  .center {
+    max-width: 97rem;
+  }
+  .howitworksec h2 {
+    font-size: 1.4rem;
+  }
+  .howitworksec p {
+    font-size: 3.3rem;
+  }
+  .howittex h2 {
+    font-size: 7rem;
+  }
+  .howittex h3 {
+    font-size: 2.5rem;
+    margin-bottom: 0;
+  }
+  .howittex p {
+    margin-top: 4rem;
+    font-size: 1.6rem;
+    line-height: 1.8;
+  }
+}
