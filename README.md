@@ -4,6 +4,9 @@ i tried to implement some good styling ,googd color choice and good fonts etc..<
 Its responsive for all device
 </br>
 </br>
+link for the website :https://omnifood-hamza.netlify.app/
+</br>
+</br>
 ![Screenshot](OMNIFOOD.png)</br>
 
-link for the website :https://omnifood-hamza.netlify.app/
+
